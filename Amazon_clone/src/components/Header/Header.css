@@ -6,6 +6,7 @@
     position: sticky;
     top: 0;
     z-index: 100;
+    width: 100vw;
 }
 
 .header__logo {
@@ -14,43 +15,92 @@
     color: #ff9f00;
     margin: 0 25px;
     height: 10px;
-    width: 20px;
-}
-
-.header__logoImage {
-    margin-right: 10px;
+    width: 10vw;
 }
 
 .header__logoTitle {
-   
-    width: 150px;
+    width: 80%;
+    display: flex;
+    position: static;
+    float: none;
+    flex-shrink: 0;
+    text-decoration: none;
+    padding: 6px 6px 0 6px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.header__logoTitle:hover {
+  width: 110px;
+  border: 2px solid #ffffff;
 }
 
 .header__search {
     display: flex;
-    flex: 1;
+    flex: 1 1;
     align-items: center;
+    justify-content: center;
     border-radius: 24px;
     margin: 0 10px;
+    width: 50vw;
+}
+.search-container {
+    display: flex;
+    width: 100%;
+}
+.search-input {
+    width: 100%;
+    line-height: 15px;
+    padding: 7px 10px 10px 0;
+    margin: 0;
+    border: 0;
+    height: 40px;
+    font-family: inherit;
+    font-size: 15px;
+    /* background: 0 0; */
+    color: #111;
+    /* outline: 0; */
+    /* -webkit-appearance: none; */
+    box-shadow: none;
+    text-indent: 8px;
+    border-radius: 4px 0 0 4px;
+    /* direction: ltr; */
+}
+.search-btn {
+    height: 40px;
+    width: 8vw;
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    border-radius: 0\9;
+    background-position: 0 -381px;
+    background-color: #febd69;
 }
 
-.header__searchInput {
+.search-btn:hover {
+    background-color: #f59c29;
+}
+/* .header__searchInput {
     height: 12px;
     padding: 10px;
     border: none;
     width: 100%;
     margin-left: 150px
-}
+} */
 
-.header__searchIcon {
+/* .header__searchIcon {
     padding: 5px;
     height: 22px !important;
     background-color: #ff9f00;
-}
+} */
 
 .header__nav {
     display: flex;
+    width: 20vw;
     justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
 }
 
 .nav__item {
@@ -59,6 +109,11 @@
     margin-left: 10px;
     margin-right: 10px;  
     color: white;
+}
+
+.nav__item:hover {
+  border: 2px solid #ffffff;
+  padding: 6px 6px;
 }
 
 .nav__itemLineOne {
@@ -77,6 +132,11 @@
     color: white;
     margin-right: 50px;
     margin-left: 10px;
+}
+
+.nav__itemBasket:hover {
+    border: 2px solid #ffffff;
+    padding: 4px 4px;
 }
 .nav__iconBasket{
     color: white;
