@@ -1,46 +1,26 @@
-import React,{ useEffect, useState } from 'react';
-import './App.css';
-import Header from './components/Header/Header';
-import Home from './components/Home';
-import Checkout from './Checkout/Checkout'
-import Login from './components/Login';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import axios from "axios";
-
+import React, { useEffect, useState } from "react";
+import "./App.css";
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
+import Checkout from "./checkout/Checkout";
+import Login from "./components/Login";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-  const [productList, setProductList] = useState([]);
-  // const [categoryList, setCategoryList] = useState([]);
-   const fetchProducts = async()=>{
-    const url = 'http://localhost:4000/';
-    const response = await axios.get('http://localhost:4000/product');
-  setProductList(response.data);
-  console.log(response);
-}
-
-useEffect(()=> {
-  fetchProducts(); 
-}, [])
-
   return (
     <>
-    <BrowserRouter>
-    <div className="App">
-   
-    <Header productList={productList}/>
-   
-  
-    <Routes>
-           <Route path='/checkout' element={<Checkout />}/>
-           <Route path='/login' element={<Login />} />
-           <Route path='/' element={<Home productList={productList}/>} />
-         
-        
-    </Routes>
-    </div>
- 
-    </BrowserRouter>
-   
+      <BrowserRouter>
+        <div className="App">
+          <Header />
+          <Routes>
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </div>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 // import LocalMallIcon from "@mui/icons-material/LocalMall";
-import SearchIcon from "@mui/icons-material/Search";
+// import SearchIcon from "@mui/icons-material/Search";
 import LocalGroceryStoreIcon from "@mui/icons-material/LocalGroceryStore";
 import SearchBar from "./SearchBar";
-import { useStateValue } from "../StateProvider";
+import { useStateValue } from "../../context/StateProvider";
+import ProductContext from "../../context/CreateContext";
 
-function Header({ productList }) {
+function Header() {
   const [{ basket }, dispatch] = useStateValue();
+  // const { productList } = useContext(ProductContext);
+  // console.log("Check Api Data:=", productList);
 
   return (
     <>

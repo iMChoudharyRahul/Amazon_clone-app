@@ -8,7 +8,7 @@
 
 .login__logo {
     display: flex;
-    margin: 30px 0;
+    margin: 10px 0;
 }
 
 .login__logoImage {
@@ -17,20 +17,21 @@
 
 .login__logoTitle {
     color: black;
+    box-shadow: 0 1px 0 rgba(215, 166, 5, 0.5), 0 1px 0 rgba(224, 198, 6, 0.07) inset;
 }
 
 .login__container {
-    width: 300px;
+    width: 25vw;
     height: fit-content;
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 1px solid lightgray;
     padding: 20px;
 }
 
 .login__container > h1 {
-    font-weight: 500;
+    /* font-weight: 400; */
     margin-bottom: 20px;
   }
 
@@ -39,10 +40,14 @@
 }
 
 .login__container > form > input {
-    height: 30px;
+    height: 4vh;
     margin-bottom: 10px;
     background-color: white;
-    width: 98%;
+    width: 100%;
+    border-radius: 8px;
+    /* background-blend-mode: color-burn; */
+    /* box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); */
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
   }
 
 .login__container > p {
@@ -67,4 +72,14 @@
     border: 1px solid;
     margin-top: 10px;
     border-color: darkgray;
+  }
+
+  .from__footer{
+    background-color: lightgray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: inherit;
+    
   }

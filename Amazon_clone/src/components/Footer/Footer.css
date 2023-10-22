@@ -1,0 +1,174 @@
+.footer-container {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+}
+
+/* <---------Footer Top Section---------> */
+.footer-top {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signin-box {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading-1 {
+  font-size: 1rem;
+  font-weight: 530;
+  line-height: 15px;
+  color: #000;
+  margin-bottom: 0.3rem;
+}
+
+.sign-in-btn {
+  cursor: pointer;
+  height: 3.5vh;
+  width: 14vw;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffe093;
+  background-color: #facc15;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.sign-in-btn:hover {
+  background-color: #f3cc33;
+}
+
+.heading-2 {
+  margin-top: 0.2rem;
+}
+
+.btn-box {
+  display: flex;
+  height: 6vh;
+  border: 1px solid black;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #37475A;
+  color: white;
+}
+
+.back-btn {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+}
+
+/* --------Footer middile ------> */
+.middle-container {
+  width: 100%;
+  height: auto;
+  background-color: #232f3e;
+}
+
+.info-box {
+  display: flex;
+  justify-content: space-evenly;
+
+  color: white;
+  width: 100%;
+  padding: 3rem;
+  flex-wrap: wrap;
+  border-bottom: 1px solid white;
+}
+
+.info-heading ul {
+  padding: 0;
+  margin: 0;
+
+}
+
+.nav-heading {
+  font-size: 1.3rem;
+  margin: 6px 0 10px 0;
+  font-weight: 600;
+}
+
+.info-heading ul>li {
+  margin: 0 0 10px;
+}
+
+.info-heading ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #DDD;
+  font-weight: 500;
+}
+
+.footer-lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem;
+
+}
+
+.logo-png {
+  width: 100%;
+  height: 5vh;
+
+  padding: 0.6rem;
+}
+
+.footerItemHover {
+  margin: 1.5rem;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.footerItemHover:hover {
+  border: 1px solid yellow;
+}
+
+.lang-text {
+  height: 5vh;
+  align-items: center;
+  padding: 0.7rem;
+  width: 6rem;
+  font-weight: 600;
+}
+
+.flag-image {
+  width: 100%;
+  height: 4vh;
+  padding: 0.4rem 0 0 0.3rem;
+}
+
+.india-text {
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* -----> Footer Bottom -----> */
+.category-box {
+  display: flex;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+}
