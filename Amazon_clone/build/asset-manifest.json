@@ -1,13 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.1de190e0.css",
-    "main.js": "/static/js/main.6e718ae7.js",
+    "main.css": "/static/css/main.72c9442b.css",
+    "main.js": "/static/js/main.76dc364d.js",
+    "static/media/MensFashionItems.gif": "/static/media/MensFashionItems.1548a1ae1b732b48fddc.gif",
+    "static/media/womenFashionItems.gif": "/static/media/womenFashionItems.c71d2a990cd3c4498f61.gif",
+    "static/media/slide-image02.jpg": "/static/media/slide-image02.7af0507dbdea9c78f1a4.jpg",
+    "static/media/bannerImgFour.jpg": "/static/media/bannerImgFour.8f7fc6b56e74dba2b6f9.jpg",
+    "static/media/slide-img03.jpg": "/static/media/slide-img03.3bd85b5370f9322b0a84.jpg",
+    "static/media/bannerImgFive.jpg": "/static/media/bannerImgFive.aa945e25375bfdee385f.jpg",
+    "static/media/slide-img1.jpg": "/static/media/slide-img1.324fc666b98b19143ef2.jpg",
+    "static/media/amazon-logo.png": "/static/media/amazon-logo.1c9be0b254d3ff1dc9e9.png",
+    "static/media/MensCasuals.webp": "/static/media/MensCasuals.cf09f91561378d819ebb.webp",
+    "static/media/logo-dark.png": "/static/media/logo-dark.88d0e2a3dbd75476e72d.png",
+    "static/media/ElectronicItems.jpg": "/static/media/ElectronicItems.7af51371efbbb625e120.jpg",
+    "static/media/emptyCart.png": "/static/media/emptyCart.230e4848b62fb3cab325.png",
     "index.html": "/index.html",
-    "main.1de190e0.css.map": "/static/css/main.1de190e0.css.map",
-    "main.6e718ae7.js.map": "/static/js/main.6e718ae7.js.map"
+    "main.72c9442b.css.map": "/static/css/main.72c9442b.css.map",
+    "main.76dc364d.js.map": "/static/js/main.76dc364d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1de190e0.css",
-    "static/js/main.6e718ae7.js"
+    "static/css/main.72c9442b.css",
+    "static/js/main.76dc364d.js"
   ]
 }

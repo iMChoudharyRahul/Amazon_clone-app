@@ -1,6 +1,5 @@
 import {
   ElectronicItems,
-  MensCasuals,
   MensFashionItems,
   WomenFashionItems,
 } from "../assets/ExportImg";

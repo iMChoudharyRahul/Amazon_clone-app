@@ -12,7 +12,7 @@ const FooterTop = () => {
         </p>
       </div>
       <div className="btn-box">
-        <a href="#" style={{ textDecoration: "none" }} >
+        <a href="#top" style={{ textDecoration: "none" }} >
           <p className="back-btn">Back to Top</p>
         </a>
       </div>

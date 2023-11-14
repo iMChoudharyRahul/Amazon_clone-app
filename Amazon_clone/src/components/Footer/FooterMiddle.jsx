@@ -24,7 +24,7 @@ const FooterMiddle = () => {
       </div>
       <div className="footer-lang">
         <div className="footerItemHover">
-          <a href="#">
+          <a href="#top">
             <img className="logo-png" src={amazonLogo} alt="logo" />
           </a>
         </div>

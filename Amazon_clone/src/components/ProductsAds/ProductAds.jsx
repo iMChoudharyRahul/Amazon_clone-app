@@ -3,13 +3,12 @@ import ProductAdsData from "../../constants/ProductAds";
 import "./ProductAds.css";
 
 const ProductAds = () => {
-  console.log("Check Prdoduct ads Data:", ProductAdsData);
   return (
     <>
       <section className="ads_container">
         <div className="ads-block">
-          {ProductAdsData.map((item) => (
-            <div className="ads-box">
+          {ProductAdsData.map((item, index) => (
+            <div className="ads-box" key={index}>
               <h2 className="heading">{item.title}</h2>
               <p className="image-box">
                 <img
