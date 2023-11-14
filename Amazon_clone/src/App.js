@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
-import "./App.css";
+import "./style/App.css";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Checkout from "./checkout/Checkout";
-import Login from "./components/Login";
+import Login from "./components/Login/Login";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 
