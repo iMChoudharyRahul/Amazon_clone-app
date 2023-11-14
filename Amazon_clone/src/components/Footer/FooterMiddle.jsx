@@ -32,7 +32,7 @@ const FooterMiddle = () => {
           <p className="footerItemHover lang-text">English</p>
         </div>
         <div className="footerItemHover">
-          <img src={indiaFlag} alt="indian-flag-image" className="flag-image" />
+          <img src={indiaFlag} alt="indianFlagImage" className="flag-image" />
           <p className="india-text">India</p>
         </div>
       </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const FooterTop = () => {
   return (
@@ -13,8 +12,8 @@ const FooterTop = () => {
         </p>
       </div>
       <div className="btn-box">
-        <a href="#" style={{ textDecoration: "none" }}>
-          <button className="back-btn">Back to Top</button>
+        <a href="#" style={{ textDecoration: "none" }} >
+          <p className="back-btn">Back to Top</p>
         </a>
       </div>
     </section>
