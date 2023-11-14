@@ -1,0 +1,166 @@
+p {
+    padding: 0;
+    margin: 0.4rem;
+}
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+
+.checkout__ad {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout__title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.checkout__top {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkoutProduct {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.checkoutProduct img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.checkout__info {
+    padding-left: 20px;
+
+}
+
+.checkoutProduct__title {
+    font-size: 17px;
+    font-weight: 800;
+
+}
+
+.checkoutProduct__price {
+    margin: 0px;
+}
+
+.in_stock {
+    color: #007600;
+    font-size: medium;
+}
+
+.text-link {
+    color: #007185;
+    padding: 0;
+    font-size: medium;
+}
+
+.sold__by {
+    color: #808080;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.style__name {
+    font-weight: bold;
+}
+
+.category {
+    color: #808080;
+}
+
+.update__quantity {
+    margin-right: 1rem;
+
+}
+
+.qty__input {
+    width: 4vw;
+    margin-right: 1rem;
+
+}
+
+.update__btn {
+    margin-right: 1rem;
+}
+
+.checkoutProduct__info button {
+    background-color: #f7ca00;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.subtotal button {
+    background-color: #f0c14b;
+    border: 1px solid;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* ------------- Checkout Product Css ---------- */
+.checkoutProduct {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkoutProduct__info {
+    padding-left: 20px
+}
+
+.checkoutProduct__info>button {
+    background: #ff9f00;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
+
+.checkoutProduct__image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.checkoutProduct__rating {
+    display: flex;
+}
+
+.half-star {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    /* Adjust the width as needed */
+    overflow: hidden;
+}
+
+.half-star::before {
+    content: "⭐";
+    /* Replace with a half-filled star character */
+    position: absolute;
+    left: 0;
+    width: 50%;
+    /* Adjust the width to control the fill level */
+    overflow: hidden;
+}
+
+.checkoutProduct__title {
+    font-size: 17px;
+    font-weight: 800;
+}

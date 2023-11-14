@@ -1,0 +1,58 @@
+.checkoutProduct {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.checkoutProduct__info {
+  padding-left: 20px
+}
+
+.checkoutProduct__info>button {
+  background: #f7ca00;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+
+.checkoutProduct__image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+}
+
+.checkoutProduct__rating {
+  display: flex;
+}
+
+.half-star {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  /* Adjust the width as needed */
+  overflow: hidden;
+}
+
+.half-star::before {
+  content: "⭐";
+  /* Replace with a half-filled star character */
+  position: absolute;
+  left: 0;
+  width: 50%;
+  /* Adjust the width to control the fill level */
+  overflow: hidden;
+}
+
+.checkoutProduct__title {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  .subtotal button {
+    height: auto;
+  }
+}
