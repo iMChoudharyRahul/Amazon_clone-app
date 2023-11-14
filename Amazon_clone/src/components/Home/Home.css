@@ -1,50 +1,43 @@
 .home {
-  background-image: linear-gradient(#dd9dc4, #a8f7f2);
+  background-image: linear-gradient(#a8f7f2, #dd9dc4);
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
 }
 
-.main {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-
+.carousels-section {
+  height: 30vh;
+  width: 100%;
+  z-index: 0;
 }
 
-.main .product_box {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  padding: 10px;
-  margin: 0px 5%;
-  width: 90%;
-  box-shadow: 0px 0px 10px rgb(0, 0, 0 /37%);
-  margin-bottom: 30px;
+.carousel-indicators {
+  display: none !important;
 }
 
-.home__row {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  z-index: 1;
+.ads-section {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 10rem;
 }
 
-.row1 {
-  grid-template-columns: auto auto auto auto;
-  margin-left: auto;
-  margin-right: auto;
-
+.product-section {
+  width: 100%;
+  height: auto;
+  margin: 0;
 }
 
-.row2 {
-  flex-direction: row;
-  margin-left: 5px;
-  margin-right: 5px;
-
+/* -------Media Queries----- */
+@media (min-width: 330px) and (max-width: 499px) {
+  .carousels-section {
+    height: auto;
+  }
 }
 
-.row3 {
-  flex-direction: row;
-  margin-left: 5px;
-  margin-right: 5px;
-
-}
-
-.carousels {
-  height: 250px;
+@media (min-width: 0px) and (max-width: 329px) {
+  .carousels-section {
+    height: auto;
+  }
 }

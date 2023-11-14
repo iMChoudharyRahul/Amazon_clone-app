@@ -3,8 +3,11 @@ export const initialState = {
 };
 
 export var getBasketTotal = function getBasketTotal(basket) {
+  console.log("Get Basket Function Inside:", basket);
   return basket?.reduce(function (amount, item) {
-    return item.price + amount;
+    if (item.quantity) return item.price * item?.quantity * 83 + amount;
+
+    return item.price * 83 + amount;
   }, 0);
 };
 
@@ -34,6 +37,20 @@ const reducer = (state, action) => {
       return {
         ...state,
         basket: newBasket,
+      };
+
+    case "UPDATE_QUANTITY":
+      // Update the quantity of a product in the basket
+      const updatedBasket = state.basket.map((item) => {
+        if (item.id === action.id) {
+          item.quantity = action.quantity;
+          console.log("Check Basket Values:=", item);
+        }
+        return item;
+      });
+      return {
+        ...state,
+        basket: updatedBasket,
       };
 
     default:
